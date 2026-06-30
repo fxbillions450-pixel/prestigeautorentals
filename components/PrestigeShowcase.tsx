@@ -149,7 +149,7 @@ function HeroStage() {
     <section
       id="top"
       ref={stageRef}
-      className="relative h-[100svh] overflow-hidden bg-bg"
+      className="relative h-[100svh] overflow-hidden bg-black"
     >
       <div className="absolute inset-0">
         <SceneCanvas cameraZ={6.4} bloom={0.95}>
@@ -158,11 +158,11 @@ function HeroStage() {
       </div>
       <BrandLoader />
       <div
-        className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_90%_at_52%_32%,transparent_24%,rgba(54,51,51,0.34)_58%,#363333_94%)]"
+        className="pointer-events-none absolute inset-0 bg-[radial-gradient(120%_90%_at_52%_32%,transparent_24%,rgba(0,0,0,0.34)_58%,#000_94%)]"
         aria-hidden="true"
       />
       <div
-        className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(54,51,51,0.86),transparent_43%,rgba(54,51,51,0.46))]"
+        className="pointer-events-none absolute inset-0 bg-[linear-gradient(90deg,rgba(0,0,0,0.86),transparent_43%,rgba(0,0,0,0.46))]"
         aria-hidden="true"
       />
 
