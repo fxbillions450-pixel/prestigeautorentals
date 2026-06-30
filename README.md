@@ -1,6 +1,8 @@
 # Prestige Auto Rentals
 
-Luxury, exotic & performance car rental — marketing site built with [Next.js](https://nextjs.org) (App Router) and deployed on [Vercel](https://vercel.com).
+Cinematic car-rental website showcase built with Next.js, Tailwind CSS, GSAP, Lenis, and React Three Fiber.
+
+The page uses the monolith-style scroll experience: a pinned WebGL hero, a 360-degree orbit around the Porsche Cayenne model, editorial slide reveals, fleet photography, and direct contact paths. The goal is to showcase a rentable website concept, not to run a full booking flow.
 
 ## Local development
 
@@ -11,22 +13,17 @@ npm run dev
 
 Open [http://localhost:3000](http://localhost:3000).
 
-## Deployment — fully automatic
+## Production build
 
-This repository is connected to Vercel via the **native Git integration**. There is nothing to run manually:
-
-- **Every push to `main`** triggers a **Production** deployment.
-- **Every push to any other branch / pull request** triggers a **Preview** deployment with its own URL.
-
-No secrets or tokens live in this repo — the GitHub ↔ Vercel link is configured on the Vercel project itself. Build settings are auto-detected from `package.json` (`next build`); see `vercel.json` for the explicit framework pin.
-
-## Project structure
-
+```bash
+npm run build
 ```
-app/
-  layout.tsx     # Root layout + metadata
-  page.tsx       # Landing page (hero, fleet, reserve)
-  globals.css    # Styles
-next.config.mjs
-vercel.json      # Framework + git deployment config
-```
+
+## Deployment
+
+This repository is connected to Vercel through the native Git integration:
+
+- Every push to `main` triggers a production deployment.
+- Every push to another branch or pull request triggers a preview deployment.
+
+No secrets or tokens live in this repo. The GitHub to Vercel link is configured on the Vercel project itself.
