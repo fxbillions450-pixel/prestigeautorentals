@@ -38,7 +38,7 @@ export default function BrandLoader() {
         />
       </div>
       <p className="mt-4 text-[11px] uppercase tracking-luxe text-ink-faint">
-        Preparing the showroom
+        Loading the fleet
       </p>
     </div>
   );

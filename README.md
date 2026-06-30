@@ -1,8 +1,6 @@
 # Prestige Auto Rentals
 
-Cinematic car-rental website showcase built with Next.js, Tailwind CSS, GSAP, Lenis, and React Three Fiber.
-
-The page uses the monolith-style scroll experience: a pinned WebGL hero, a 360-degree orbit around the Porsche Cayenne model, editorial slide reveals, fleet photography, and direct contact paths. The goal is to showcase a rentable website concept, not to run a full booking flow.
+Prestige Auto Rentals is a customer-facing car rental experience for luxury, sport, SUV, sedan, and economy vehicles.
 
 ## Local development
 

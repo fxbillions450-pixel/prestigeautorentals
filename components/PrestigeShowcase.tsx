@@ -23,19 +23,19 @@ const OrbitScene = dynamic(() => import("@/components/three/OrbitScene"), {
 
 const highlights = [
   {
-    label: "Digital showroom",
-    title: "A prestige-first web presence for rental fleets.",
-    text: "Cinematic motion, editorial copy, and real vehicle media designed to make the business feel premium before a visitor ever calls.",
+    label: "Luxury fleet",
+    title: "Premium options for arrivals, weekends, and special plans.",
+    text: "Choose from Range Rover Sport, Porsche Cayenne, Ford Mustang Convertible, premium SUVs, comfortable sedans, and practical economy cars.",
   },
   {
     label: "Fleet proof",
-    title: "Real inventory, not stock-car filler.",
-    text: "Luxury SUVs, sport convertibles, sedans, economy cars, airport transfer visuals, and host placement creative are ready to reshape into the final brand story.",
+    title: "A clean category for every kind of trip.",
+    text: "Luxury, sport, SUV, sedan, and economy selections make it easy to match the vehicle to the moment, from quick city movement to family travel.",
   },
   {
-    label: "Rental-ready",
-    title: "Built as a showcase site that can be licensed.",
-    text: "The structure is intentionally lean: no booking clutter, just a polished preview that helps a car rental operator imagine owning this experience.",
+    label: "Concierge service",
+    title: "Airport transfers, host placement, and direct reservations.",
+    text: "Prestige supports travelers, local drivers, Airbnb hosts, and visitors who want a smooth handoff without a complicated process.",
   },
 ];
 
@@ -168,10 +168,10 @@ function HeroStage() {
 
       <MonolithSlide active={inRange(progress, 0, 0.16)} eyebrow="Prestige Auto Rentals">
         <h1 className="mt-5 max-w-4xl font-display text-5xl font-semibold leading-[1.0] text-paper sm:text-7xl lg:text-8xl">
-          A cinematic car rental site built to be rented.
+          Premium car rentals for every arrival.
         </h1>
         <p className="mt-6 max-w-xl text-base leading-8 text-paper/75 sm:text-lg">
-          A polished digital showroom for luxury, SUV, sport, and everyday rental fleets, using real vehicle assets and high-end motion.
+          Luxury SUVs, sport convertibles, sedans, and economy vehicles ready for airport pickups, weekend plans, business trips, and longer stays.
         </p>
         <div className="pointer-events-auto mt-8 flex flex-wrap gap-3">
           <a
@@ -195,13 +195,13 @@ function HeroStage() {
 
       <MonolithSlide active={inRange(progress, 0.26, 0.44)} eyebrow="01 - The feel">
         <p className="mt-5 max-w-3xl font-display text-3xl font-light leading-snug text-paper sm:text-5xl">
-          Scroll-driven 3D presence, warm studio lighting, and editorial pacing make the fleet feel aspirational without hiding the cars.
+          Arrive in the vehicle that fits the day: a luxury SUV for presence, a convertible for the coast, or a reliable sedan for easy movement.
         </p>
       </MonolithSlide>
 
       <MonolithSlide active={inRange(progress, 0.54, 0.72)} eyebrow="02 - The offer">
         <h2 className="mt-5 max-w-3xl font-display text-4xl font-semibold leading-[1.05] text-paper sm:text-6xl">
-          A website package for rental operators who need instant prestige.
+          Choose by category, comfort, or occasion.
         </h2>
         <ul className="mt-7 max-w-2xl space-y-3">
           {highlights.map((item, index) => (
@@ -215,10 +215,10 @@ function HeroStage() {
 
       <MonolithSlide active={inRange(progress, 0.82, 1.01)} eyebrow="03 - The proof">
         <h2 className="mt-5 max-w-3xl font-display text-5xl font-semibold leading-[1.02] text-paper sm:text-7xl">
-          Fleet, experience, and contact moments are already shaped.
+          From everyday drives to premium arrivals.
         </h2>
         <p className="mt-5 max-w-xl text-paper/75">
-          The rest of the page turns the concept into a compact sales piece with real inventory photography.
+          Explore the categories, compare the fleet, then call or message Prestige to confirm the right vehicle for your dates.
         </p>
         <div className="pointer-events-auto mt-8">
           <a
@@ -244,9 +244,9 @@ function HighlightSection() {
     <section className="border-y border-stone/15 bg-paper px-5 py-20 text-graphite sm:px-10 lg:py-28">
       <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-[0.8fr_1.2fr]">
         <div>
-          <p className="text-[11px] uppercase tracking-luxe text-ash">Website concept</p>
+          <p className="text-[11px] uppercase tracking-luxe text-ash">Why Prestige</p>
           <h2 className="mt-4 max-w-xl font-display text-4xl font-semibold leading-[1.06] text-graphite sm:text-5xl">
-            Designed to sell the idea of the rental business before the first call.
+            A fleet built for travelers, hosts, families, and drivers who want a better handoff.
           </h2>
         </div>
         <div className="grid gap-4 md:grid-cols-3">
@@ -275,7 +275,7 @@ function FleetSection() {
             </h2>
           </div>
           <p className="max-w-2xl text-base leading-8 text-stone lg:justify-self-end">
-            A rental website should make the fleet feel curated without pretending every customer wants the same car. This layout gives premium vehicles room while still showing everyday options.
+            Pick the vehicle that matches the plan: premium comfort, family space, sporty open-air driving, or an efficient daily rental.
           </p>
         </div>
 
@@ -330,12 +330,12 @@ function ExperienceSection() {
           </div>
           <div className="absolute inset-0 flex items-end p-6 sm:p-10 lg:p-14">
             <div className="max-w-2xl">
-              <p className="text-[11px] uppercase tracking-luxe text-paper/70">Campaign-ready</p>
+              <p className="text-[11px] uppercase tracking-luxe text-paper/70">More than the keys</p>
               <h2 className="mt-4 font-display text-4xl font-semibold leading-[1.05] text-paper sm:text-6xl">
-                Built for a rental brand that needs to look established now.
+                Airport arrivals, host support, and adventure-ready add-ons.
               </h2>
               <p className="mt-5 max-w-xl text-base leading-8 text-paper/75">
-                Landing visuals, contact moments, and fleet blocks can be adapted into a rented website package without rebuilding the whole experience.
+                Prestige makes the rental feel simple from the first message: pickup details, vehicle category, trip length, and the right option for the route.
               </p>
             </div>
           </div>
@@ -370,12 +370,12 @@ function ContactSection() {
     <section id="contact" className="scroll-mt-24 border-t border-paper/15 bg-bg px-5 py-20 sm:px-10 lg:py-28">
       <div className="mx-auto grid max-w-7xl gap-8 lg:grid-cols-[1.1fr_0.9fr] lg:items-end">
         <div>
-          <p className="text-[11px] uppercase tracking-luxe text-paper/60">Rent the site</p>
+          <p className="text-[11px] uppercase tracking-luxe text-paper/60">Reserve your vehicle</p>
           <h2 className="max-w-4xl font-display text-5xl font-semibold leading-[1.02] text-paper sm:text-7xl">
-            Keep the showroom. Swap in the final brand.
+            Ready for your next arrival.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-paper/75">
-            This demo is intentionally focused: cinematic first impression, fleet proof, rental-adjacent service visuals, and direct contact paths.
+            Call or message Prestige Auto Rentals to check availability, confirm your dates, and choose the category that fits your trip.
           </p>
         </div>
         <div className="border border-paper/15 bg-stone/45 p-6">
