@@ -9,17 +9,22 @@ const config: Config = {
   theme: {
     extend: {
       colors: {
-        bg: "#07070a",
-        panel: "#0e0e13",
+        bg: "#363333",
+        panel: "#555152",
+        paper: "#FAF9FA",
+        graphite: "#363333",
+        stone: "#555152",
+        ash: "#7C7B7E",
+        smoke: "#929192",
         ink: {
-          DEFAULT: "#f4efe4",
-          muted: "#a39d90",
-          faint: "#6c675e",
+          DEFAULT: "#FAF9FA",
+          muted: "#929192",
+          faint: "#7C7B7E",
         },
         gold: {
-          DEFAULT: "#c8a45c",
-          light: "#e7cd93",
-          deep: "#9a7a3c",
+          DEFAULT: "#FAF9FA",
+          light: "#FAF9FA",
+          deep: "#555152",
         },
       },
       fontFamily: {

@@ -100,7 +100,7 @@ function Dust({ count = 120 }: { count?: number }) {
       </bufferGeometry>
       <pointsMaterial
         size={0.035}
-        color="#e7cd93"
+        color="#929192"
         transparent
         opacity={0.5}
         depthWrite={false}
@@ -140,13 +140,13 @@ export default function OrbitScene() {
         angle={Math.PI / 4}
         penumbra={0.9}
         intensity={3.4}
-        color="#fff4e2"
+        color="#FAF9FA"
         castShadow
         shadow-mapSize={[2048, 2048]}
         shadow-bias={-0.0001}
       />
-      <directionalLight position={[-6, 4, -5]} intensity={1.2} color="#cfe0ff" />
-      <directionalLight position={[-2, -3, 4]} intensity={0.45} color="#ffd9a8" />
+      <directionalLight position={[-6, 4, -5]} intensity={1.15} color="#929192" />
+      <directionalLight position={[-2, -3, 4]} intensity={0.42} color="#7C7B7E" />
 
       <CameraRig />
       <Car />
@@ -165,11 +165,11 @@ export default function OrbitScene() {
       {/* Local studio environment for crisp paint reflections (no network HDR). */}
       <Environment resolution={256}>
         <group rotation={[0, 0, 1]}>
-          <Lightformer form="rect" intensity={3} color="#fff1d6" position={[0, 5, -6]} scale={[12, 4, 1]} />
-          <Lightformer form="rect" intensity={2.2} color="#bcd0f0" position={[-7, 1, -1]} scale={[3, 9, 1]} />
-          <Lightformer form="rect" intensity={2.2} color="#ffe7bd" position={[7, 1, -1]} scale={[3, 9, 1]} />
+          <Lightformer form="rect" intensity={3} color="#FAF9FA" position={[0, 5, -6]} scale={[12, 4, 1]} />
+          <Lightformer form="rect" intensity={2.1} color="#929192" position={[-7, 1, -1]} scale={[3, 9, 1]} />
+          <Lightformer form="rect" intensity={2.1} color="#FAF9FA" position={[7, 1, -1]} scale={[3, 9, 1]} />
           <Lightformer form="circle" intensity={3} color="#ffffff" position={[6, 3, 5]} scale={[4, 4, 1]} />
-          <Lightformer form="rect" intensity={1.3} color="#a8762f" position={[0, -4, 2]} scale={[14, 3, 1]} />
+          <Lightformer form="rect" intensity={1.2} color="#555152" position={[0, -4, 2]} scale={[14, 3, 1]} />
         </group>
       </Environment>
     </>

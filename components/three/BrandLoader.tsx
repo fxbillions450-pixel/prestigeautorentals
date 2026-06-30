@@ -31,9 +31,9 @@ export default function BrandLoader() {
       <p className="font-display text-2xl tracking-[0.18em] text-ink sm:text-3xl">
         {SITE.name}
       </p>
-      <div className="mt-6 h-px w-44 overflow-hidden bg-white/12">
+      <div className="mt-6 h-px w-44 overflow-hidden bg-paper/20">
         <div
-          className="h-full bg-gold transition-[width] duration-300 ease-out"
+          className="h-full bg-paper transition-[width] duration-300 ease-out"
           style={{ width: `${Math.min(100, progress)}%` }}
         />
       </div>
