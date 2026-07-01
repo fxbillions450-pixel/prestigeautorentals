@@ -22,7 +22,7 @@ export const metadata: Metadata = {
   metadataBase: new URL(SITE_URL),
   title: "Prestige Auto Rentals - Drive the Extraordinary",
   description:
-    "Prestige Auto Rentals - an exclusive fleet of luxury, sport, SUV and everyday vehicles, with concierge airport transfers and host placement. Book by phone or Instagram.",
+    "Prestige Auto Rentals - an exclusive fleet of luxury, sport, SUV and everyday vehicles, with concierge airport transfers and host placement. Book by WhatsApp or Instagram.",
   keywords: [
     "luxury car rental",
     "exotic car rental",
@@ -33,7 +33,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: "Prestige Auto Rentals - Drive the Extraordinary",
     description:
-      "An exclusive fleet of luxury, sport and everyday vehicles. Concierge service. Book by phone or Instagram.",
+      "An exclusive fleet of luxury, sport and everyday vehicles. Concierge service. Book by WhatsApp or Instagram.",
     url: SITE_URL,
     siteName: "Prestige Auto Rentals",
     images: [{ url: "/experiences/luxury-banner.webp", width: 1800, height: 1200 }],

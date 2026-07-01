@@ -17,8 +17,8 @@ export const FLEET: Vehicle[] = [
     "category": "Sport"
   },
   {
-    "slug": "jeep-grand-cherokee",
-    "name": "Jeep Grand Cherokee",
+    "slug": "jeep-cherokee",
+    "name": "Jeep Cherokee",
     "category": "SUV"
   },
   {
@@ -52,13 +52,8 @@ export const FLEET: Vehicle[] = [
     "category": "Sedan"
   },
   {
-    "slug": "hyundai-sonata",
-    "name": "Hyundai Sonata",
-    "category": "Sedan"
-  },
-  {
-    "slug": "kia-optima",
-    "name": "Kia Optima",
+    "slug": "kia-k5",
+    "name": "Kia K5",
     "category": "Sedan"
   },
   {

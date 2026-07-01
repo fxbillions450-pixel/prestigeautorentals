@@ -4,7 +4,7 @@ export const SITE = {
   shortName: "Prestige",
   tagline: "Drive the Extraordinary",
   phoneDisplay: "(829) 631-9133",
-  phoneHref: "tel:+18296319133",
+  whatsappHref: "https://wa.me/18296319133",
   instagramUrl: "https://www.instagram.com/prestige_autorentals/",
   instagramHandle: "@prestige_autorentals",
 } as const;

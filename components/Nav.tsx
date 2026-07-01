@@ -42,12 +42,14 @@ export default function Nav() {
             <InstagramIcon className="h-[18px] w-[18px]" />
           </a>
           <a
-            href={SITE.phoneHref}
+            href={SITE.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex items-center gap-2 rounded-full bg-paper px-4 py-2.5 text-xs font-semibold text-graphite transition-transform hover:-translate-y-0.5 hover:bg-smoke sm:px-5 sm:text-sm"
           >
             <PhoneIcon className="h-4 w-4" />
-            <span className="hidden sm:inline">{SITE.phoneDisplay}</span>
-            <span className="sm:hidden">Call</span>
+            <span className="hidden sm:inline">WhatsApp {SITE.phoneDisplay}</span>
+            <span className="sm:hidden">WhatsApp</span>
           </a>
         </div>
       </nav>

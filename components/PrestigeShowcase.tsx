@@ -175,11 +175,13 @@ function HeroStage() {
         </p>
         <div className="pointer-events-auto mt-8 flex flex-wrap gap-3">
           <a
-            href={SITE.phoneHref}
+            href={SITE.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="inline-flex min-h-14 items-center gap-2 rounded-full bg-paper px-7 py-4 text-sm font-semibold text-graphite transition hover:bg-smoke"
           >
             <PhoneIcon className="h-4 w-4" />
-            {SITE.phoneDisplay}
+            WhatsApp {SITE.phoneDisplay}
           </a>
           <a
             href={SITE.instagramUrl}
@@ -218,7 +220,7 @@ function HeroStage() {
           From everyday drives to premium arrivals.
         </h2>
         <p className="mt-5 max-w-xl text-paper/75">
-          Explore the categories, compare the fleet, then call or message Prestige to confirm the right vehicle for your dates.
+          Explore the categories, compare the fleet, then message Prestige on WhatsApp to confirm the right vehicle for your dates.
         </p>
         <div className="pointer-events-auto mt-8">
           <a
@@ -375,16 +377,18 @@ function ContactSection() {
             Ready for your next arrival.
           </h2>
           <p className="mt-6 max-w-2xl text-base leading-8 text-paper/75">
-            Call or message Prestige Auto Rentals to check availability, confirm your dates, and choose the category that fits your trip.
+            Message Prestige Auto Rentals on WhatsApp to check availability, confirm your dates, and choose the category that fits your trip.
           </p>
         </div>
         <div className="border border-paper/15 bg-stone/45 p-6">
           <p className="text-[11px] uppercase tracking-luxe text-paper/50">Contact</p>
           <a
-            href={SITE.phoneHref}
+            href={SITE.whatsappHref}
+            target="_blank"
+            rel="noopener noreferrer"
             className="mt-5 flex min-h-14 items-center justify-between border-b border-paper/15 pb-5 text-2xl font-semibold text-paper transition hover:text-smoke"
           >
-            {SITE.phoneDisplay}
+            WhatsApp {SITE.phoneDisplay}
             <PhoneIcon className="h-5 w-5" />
           </a>
           <a
